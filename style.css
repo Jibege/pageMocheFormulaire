@@ -1,0 +1,397 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    background-color: #dea16f86;
+    background-image: url(/img/texture3.png);
+    /*background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 100px 100px;
+background-color: #EC173A;*/
+
+}
+
+a {
+    text-decoration: none;
+    color: #1a1e33;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1a1e33;
+}
+
+.logoStyle {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+header {
+    height: 150px;
+    background: linear-gradient(25deg, #dea16f83 0 75%, #ffffff 95% 100%);
+    display: flex;
+    /*background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px); */
+
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.amenu {
+
+    
+    background: linear-gradient(25deg, #1e2a41 0 1%, #dea16f 30% 100%);
+    height: 80px;
+    border-style: solid;
+    border-color: white;
+    margin-right: 20px;
+    border-radius: 500% 80% 500% 1%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.amenu:hover {
+
+    background: linear-gradient(25deg, #1e2a41 0 1%, #dea16f 30% 100%);
+    height: 80px;
+    border-style: solid;
+    border-color: white;
+    margin-right: 20px;
+    border-radius: 500% 80% 500% 1%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.presentationFond {
+
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 20px;
+    position: relative;
+    background-image: url(img/plume2.webp);
+    margin: 0;
+
+}
+
+.contactFond {
+
+    background-position-y: bottom;
+    background-size: cover;
+    height: 600px;
+    margin: 20px;
+    position: relative;
+    background-image: url(img/plume5.webp);
+   
+    margin: 0;
+
+}
+
+.presentationTitre {
+    background: linear-gradient(25deg, #1e2a41 0 1%, #ffffff 30% 100%);
+    border-radius: 500% 80% 500% 1%;
+    padding: 10px;
+    color: #dea16f;
+    border-style: solid;
+    text-shadow: 1px 1px 2px black, 0 0 10px #dea16f, 0 0 10px #dea16f;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contactTitre {
+    background: linear-gradient(25deg, #1e2a41 0 1%, #ffffff 30% 100%);
+    border-radius: 500% 80% 500% 1%;
+    padding: 10px;
+    color: #dea16f;
+    border-style: solid;
+    text-shadow: 1px 1px 2px black, 0 0 10px #dea16f, 0 0 10px #dea16f;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.ss1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ss1photo {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+
+}
+
+.ss1prez {
+    display: flex;
+    position: relative;
+}
+
+.ss1titre {
+    font-size: 40px;
+    background: linear-gradient(25deg, #1e2a41 0 1%, #ffffff 30% 100%);
+    border-radius: 500% 80% 500% 1%;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    color: #dea16f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 10px #dea16f, 0 0 10px #dea16f;
+    position: absolute;
+    right: 10px;
+    bottom: -60px;
+    transition-duration: 0.5s;
+    
+}
+
+.ss1titre:hover {
+    font-size: 50px;
+    background: linear-gradient(25deg, #1e2a41 0 1%, #ffffff 30% 100%);
+    border-radius: 500% 80% 500% 1%;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    color: #dea16f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 10px #dea16f, 0 0 10px #dea16f;
+    position: absolute;
+    right: 10px;
+    bottom: -60px;
+    
+}
+
+.ss1texte {
+    background-color: #dbab81;
+    background-image: url(/img/texture.png);
+
+    
+    /*background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;*/
+
+    font-size: 35px;
+    color: #3b405c;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Charmonman', cursive;
+
+}
+
+
+
+.pss1 {
+    padding-left: 20px;
+}
+
+.footerstyle {
+    background-color: #e5b790;
+    height: 50px;
+    display: flex;
+    color: black;
+    justify-content: center;
+
+
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 13px;
+    padding-inline-start: 0px;
+
+
+
+
+
+}
+
+.afooter {
+    color: black;
+    text-decoration: underline;
+}
+
+.afooter:visited {
+    color: black;
+}
+
+li {
+
+    margin-right: 20px;
+}
+
+.formulaire {display: flex;
+    justify-content: center;
+    flex-basis: 0px;
+    
+}
+
+
+.bloc1 {
+    background-color: red;
+    padding: 100px;
+    width: auto;
+   
+
+}
+
+.bloc2 {
+    background-color: blue;
+    padding: 100px;
+}
+
+.parent {
+    background-color: red;
+    column-count: 2;
+    column-width: 50%;
+}
+
+.enfant {
+    background-color: blue;
+    column-count: 2;
+    column-width: 50%;
+}
+
+.b1 {
+    display: flex;
+}
+
+.job {
+    background-color: yellow;
+}
+
+.possede{
+    background-color: green;
+}
+
+.event {
+    background-color: pink;
+}
+
+.message {
+    background-color: brown;
+}
+
+
+.textarea {
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.fastfood {
+    background-color: #3b405c;
+}
+
+
+/*
+Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #848;
+        
+
+    }
+
+    .ss1texte {
+        font-size: 15px;
+
+    }
+
+
+
+    .presentationTitre {
+        font-size: 30px;
+        position: absolute;
+        right: 30px;
+        bottom: 250px;
+
+
+    }
+
+    .ss1titre {
+        position: absolute;
+        right: 25%;
+        border-radius: 5px;
+        bottom: 550px;
+
+    }
+
+
+
+    .ss1 {
+        height: 700px;
+    }
+
+    .menu {
+
+        background-color: #dea16f;
+        background: linear-gradient(25deg, #1e2a41 0 1%, #dea16f 30% 100%);
+        height: 80px;
+        width: 100px;
+        margin-right: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+    .logoStyle {
+        width: 100px;
+        height: 100px;
+        margin-right: 50px;
+        margin-left: 5px;
+    }
+
+    header {
+        display: flex;
+        align-items: space-between;
+    }
+
+
+}
+
+@media screen and (min-width: 1500px) {
+    body {
+        background-color: rgb(136, 68, 74);
+        
+
+    }
+
+    .ss1texte {
+        font-size: 20px;
+
+    }
+
+
+
+    .presentationTitre {
+        font-size: 50px;
+    }
+}
+
+*/
