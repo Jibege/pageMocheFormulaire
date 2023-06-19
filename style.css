@@ -5,7 +5,7 @@ body {
     font-weight: bold;
     background-color: #dea16f86;
     background-image: url(/img/texture3.png);
-    
+
     /*background:
 linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
 linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
@@ -94,9 +94,10 @@ nav {
 
 .contactFond {
 
-    background-position-y: bottom;
+    background-position-y: center;
+    background-position-x: center ;
     background-size: cover;
-    height: 600px;
+    height: 400px;
     margin: 20px;
     position: relative;
     background-image: url(img/plume5.webp);
@@ -128,7 +129,7 @@ nav {
     border-style: solid;
     text-shadow: 1px 1px 2px black, 0 0 10px #dea16f, 0 0 10px #dea16f;
     position: absolute;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -246,14 +247,14 @@ li {
     margin-right: 20px;
 }
 
-.formul{
+.formul {
     padding-right: 10px;
     background-color: #dea16f;
     padding: 10px;
     margin-bottom: 20px;
     display: flex;
     height: 490px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     font-size: 18px;
     margin-bottom: 20px;
     color: #865f1f;
@@ -273,28 +274,30 @@ li {
 
 .cases {
     width: 99%;
-    font-family: Tangerine; 
+    font-family: Tangerine;
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
 
 .cases:focus {
     background-color: rgb(247, 233, 213);
-    
+
 }
 
 
-.select {width: 100%;
-    color: rgb(121, 121, 121); 
+.select {
+    width: 100%;
+    color: rgb(121, 121, 121);
     background-color: white;
-    
 
- }
 
- br {content: "";
+}
+
+br {
+    content: "";
     display: block;
     margin-bottom: 5px;
- }
+}
 
 .textarea {
     height: 200px;
@@ -305,17 +308,18 @@ li {
 #message {
     width: 99%;
     height: 150px;
-    font-family: Tangerine; 
+    font-family: Tangerine;
     font-size: 30px;
     color: grey
 }
 
 #message:focus {
-   
+
     background-color: rgb(247, 233, 213);
 }
-.form1 { 
-    width:100%;
+
+.form1 {
+    width: 100%;
     padding: 10px;
     border: solid;
     font-weight: bold;
@@ -328,9 +332,58 @@ li {
 }
 
 .form1:hover {
-    background-color:#dea16f;
+    background-color: #dea16f;
     color: white;
     border-color: white;
+}
+
+@media screen and (max-width: 600px) {
+   
+
+    .formul {display: block;
+        width: 100%;
+        height: 100%;
+    
+    
+    }
+
+    .contactTitre {
+      
+   
+        font-size: 25px;
+    
+    }
+
+    .cases {
+        width: 85vw;
+       
+    }
+
+    #message {
+        width: 85vw;
+       
+    }
+
+    .form1 {
+        width: 90vw;
+      
+    }
+
+    .select {
+        width: 87vw;;
+    }
+
+    .contactFond {
+        background-position-x: center ;
+       
+        height: 400px;
+    
+    }
+    
+    
+
+    
+
 }
 
 /* personalliser boutons with SPAN 
