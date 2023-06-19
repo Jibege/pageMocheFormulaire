@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Charmonman:wght@400;700&family=Italianno&family=Lovers+Quarrel&family=Neonderthaw&family=Niconne&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Plumes d'écriture de qualité artisanale et sur-mesure</title>
 </head>
@@ -41,70 +41,80 @@
 
 
 
-        FORMULAIRE
 
-        <div class="parent">
+        
 
-            <div class="enfant">
-                <div class="b1">
-
-                    <form action="get" method="hh.mail">
-
-                        <label for="Prénom">Prénom
-                            <input type="text" placeholder="Votre Prénom">
-                        </label>
-
-                        <label for="Nom">Nom
-                            <input type="text" placeholder="Votre Nom">
-                        </label>
-
-                        <label for="Email">Email
-                            <input type="text" placeholder="Votre Email">
-                        </label>
-
-                        <label class="job" for="job">Vous êtes :
-                            <select name="job" id="job">
-                                <option value="Un particulier">Un particulier</option>
-                                <option value="Autre chose">Autre chose</option>
-                                <option value="Encore Autre Chose">Encore Autre Chose</option>
-                            </select>
-                        </label>
-
-
-                        <label class="possede" for="Je possede :">Je posséde :
-                            <input type="checkbox" id="Une vélo" name="Une vélo">
-                            <label for="un vélo">un vélo</label>
-
-                            <input type="checkbox" id="une voiture" name="une voiture">
-                            <label for="une voiture">une voiture</label>
-
-                            <input type="checkbox" id="un bateau" name="un bateau">
-                            <label for="un bateau">un bateau</label>
-
-                        </label>
-                </div>
-
-                <div class="b2">
-                    <label class="event" for="event">Date de l'événement :
-                        <input type="date" placeholder="Votre Email">
+            <form action="get" method="hh.mail" class="formul">
+            <div class="item">
+                
+                    <label for="Prénom">Prénom
+                        <input class="cases" type="text" placeholder="Votre Prénom">
+                    </label>
+                    
+                    <br>
+                    <label for="Nom">Nom
+                        <input class="cases" type="text" placeholder="Votre Nom">
+                    </label>
+                    <br>
+                    <label for="Email">Email
+                        <input class="cases" type="text" placeholder="Votre Email">
+                    </label>
+                    <br>
+                    <label class="job" for="job">Vous êtes :
+                        <select class="select" name="job" id="job">
+                            <option value="Un particulier">Un particulier</option>
+                            <option value="Autre chose">Autre chose</option>
+                            <option value="Encore Autre Chose">Encore Autre Chose</option>
+                        </select>
                     </label>
 
-                    <label class="message" for="votre message">Votre message :
-                        <input class="textarea" type="textarea" placeholder="Votre message ici...">
+                    <label class="possede" for="Je possede :">Je posséde :
+                        <br>
+                        <input type="checkbox" id="vélo" name="vélo">
+                        <label for="un vélo">un vélo</label>
+                        <br>
+                        <input  type="checkbox" id="une voiture" name="une voiture">
+                        <label for="une voiture">une voiture</label>
+                        <br>
+                        <input type="checkbox" id="un bateau" name="un bateau">
+                        <label for="un bateau">un bateau</label>
+
                     </label>
 
-                    <label class="fastfood" for="fastfood">Je suis plus :
-                        <input type="radio" name="Mac Donald's"> Mac Donald's
-                    <input type="radio" name="Burger King"> Burger King
-                    </label>
 
-                </div>
 
-                <button> ENVOYER MA DEMANDE</button>
 
-                </form>
+
             </div>
 
+            <div class="item">
+
+                <label class="event" for="event">Date de l'événement :
+                    <input class="cases" type="date" placeholder="Votre Email">
+                </label>
+                <br>
+
+
+                <!--<label for="votre message">Votre message :
+                    <input class="textarea" type="textarea" placeholder="Votre message ici...">
+                </label>-->
+
+                <label for="message">Votre message:
+                    
+                    <textarea id="message" name="message">Votre message ici...
+
+                </textarea>
+
+                </label>
+
+                <br>
+
+                <label class="fastfood" for="fastfood">Je suis plus :
+                    <br>
+                    <input  type="radio" name="fastfood" checked> <span>Mac Donald's </span>
+                    <br>
+                    <input type="radio" name="fastfood"> <span> Burger King</span>
+                </label>
 
 
 
@@ -112,9 +122,15 @@
 
 
 
+            </div>
+ <button input type="submit" class="form1" value="Submit">ENVOYER MA DEMANDE</button>
         </div>
 
 
+        </form>
+
+        
+       
 
 
         <!-- </form>
@@ -136,13 +152,7 @@
 
 
 
-        </div>
-
-        </div>
-
-
-
-        </article>
+        
 
     </main>
 
